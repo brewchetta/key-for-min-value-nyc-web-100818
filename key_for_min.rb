@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       i = v
     end
   end
-  return nil if name_hash.size = 0
+  return nil if name_hash.length = 0
   name
 end
